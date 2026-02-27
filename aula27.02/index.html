@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Lionel Messi (Careca)</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        header, main, section, footer {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #ffffff;
+            border-bottom: 1px solid #333;
+            padding-bottom: 10px;
+        }
+        img {
+            border: 2px solid #f0f8ff;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        a {
+            color: #add8e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        fieldset {
+            border: 1px solid #333;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        input, textarea, button {
+            background-color: #1a1a1a;
+            color: #f0f8ff;
+            border: 1px solid #333;
+            padding: 8px;
+            margin-top: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #333;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #444;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Perfil de Personagem</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#comentarios">Comentários</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-mim">
+            <h2>Sobre Mim</h2>
+            <img src="https://i.pinimg.com/736x/6a/e4/2d/6ae42db21d8f42b999f3556a7a46fc25.jpg" alt="Foto de Perfil - Lionel Messi Careca" width="250">
+            <p>Olá! Eu sou o Lionel Messi em uma versão que você provavelmente não esperava ver hoje. Sou apaixonado por desafios, seja dentro de campo ou explorando novas tecnologias. Atualmente, estou focado em aprimorar minha aerodinâmica e aprender como o desenvolvimento web pode ser tão preciso quanto um chute no ângulo.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Envie uma mensagem para o craque</legend>
+                    <p>
+                        <label for="nome">Seu Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required>
+                    </p>
+                    <p>
+                        <label for="mensagem">Sua Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    </p>
+                    <button type="submit">Enviar Dados</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section id="comentarios">
+            <h2>Comentários da Página</h2>
+            <article>
+                <p><strong>Cristiano R.:</strong> "O visual novo ficou nota 10, meu amigo!"</p>
+            </article>
+            <article>
+                <p><strong>Neymar Jr.:</strong> "Ousadia e alegria, até no corte de cabelo!"</p>
+            </article>
+            <article>
+                <p><strong>Fã de Futebol:</strong> "A aerodinâmica agora vai ajudar a correr ainda mais."</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+</html>
